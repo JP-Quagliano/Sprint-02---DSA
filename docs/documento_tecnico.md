@@ -14,14 +14,14 @@
 
 | Nome | RM |
 |------|------|
-| João Pedro Quagliano | (preencher) |
-| *(preencher)* | *(preencher)* |
-| *(preencher)* | *(preencher)* |
-| *(preencher)* | *(preencher)* |
-| *(preencher)* | *(preencher)* |
-| *(preencher)* | *(preencher)* |
+| João Pedro Quagliano | 570233 |
+| Leticia Aiko Okano | 571988 |
+| Thiago Calazans Luz Nakano | 569151 |
+| Enzo Scattolin Furtado | 570824 |
+| Guilherme De Lucena Fontes | 569658 |
+| Matheus Levi Dagel | 571961 |
 
-**Repositório:** *(link do GitHub)*
+**Repositório:** https://github.com/JP-Quagliano/Sprint-02---DSA
 **Data de entrega:** 16 de junho de 2026
 
 ---
