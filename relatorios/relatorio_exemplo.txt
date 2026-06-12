@@ -1,0 +1,79 @@
+
+================================================================
+  ChargeGrid SmartHub - Relatorio Operacional
+  EV Challenge 2026 - FIAP x GoodWe
+  Gerado as 18:30 (relogio simulado)
+================================================================
+
+  [1] Panorama operacional
+  ----------------------------------------------------------------
+    Sessoes registradas:           5
+      em CARREGANDO:               5
+      em PAUSADA_DEMANDA:          0
+      FINALIZADAS:                 0
+      em ERRO:                     0
+
+    Distribuicao por modelo HCA G2:
+      GW7K-HCA-20 (7 kW):          0
+      GW11K-HCA-20 (11 kW):        0
+      GW22K-HCA-20 (22 kW):        5
+
+    Distribuicao por prioridade:
+      Normal (1):                  3
+      Frota (2):                   1
+      Emergencia (3):              1
+
+  [2] Energia entregue
+  ----------------------------------------------------------------
+    kWh total entregue:            37.50 kWh
+    kWh medio por sessao:          7.50 kWh
+    kWh maximo em uma sessao:      11.00 kWh
+    Demanda contratada:            75.0 kW
+    Demanda atual em uso:          75.00 kW (100.0%)
+
+  [3] Performance financeira
+  ----------------------------------------------------------------
+    Receita total:                 R$ 74.59
+    Ticket medio por sessao:       R$ 14.92
+
+    Receita por modelo:
+      GW7K-HCA-20:                 R$ 0.00
+      GW11K-HCA-20:                R$ 0.00
+      GW22K-HCA-20:                R$ 74.59
+
+  [4] Contexto tarifario atual
+  ----------------------------------------------------------------
+    Hora simulada:                 18:30
+    Faixa horaria:                 PONTA
+    Faixa de ocupacao:             PICO
+    Tarifa GW7K  agora:            R$ 1.658 / kWh
+    Tarifa GW11K agora:            R$ 1.823 / kWh
+    Tarifa GW22K agora:            R$ 1.989 / kWh
+
+  [5] Trafego OCPP 1.6
+  ----------------------------------------------------------------
+    Mensagens total no buffer:     46
+    BootNotification (Calls):      1
+    Heartbeat (Calls):             2
+    Authorize (Calls):             5
+    StartTransaction (Calls):      5
+    MeterValues (Calls):           5
+    StopTransaction (Calls):       0
+    StatusNotification (Calls):    5
+
+  [6] Detalhamento por sessao
+  ----------------------------------------------------------------
+  +------+----------+--------------+------------+--------+----------+---------+
+  |  ID  | Placa    | Modelo HCA   | Estado     | Prio.  |  kWh     |   R$    |
+  +------+----------+--------------+------------+--------+----------+---------+
+  |    1 | ABC1D23  | GW22K-HCA-20 | CARREGANDO |      3 |    11.00 |   21.88 |
+  |    2 | FRT2X45  | GW22K-HCA-20 | CARREGANDO |      2 |    11.00 |   21.88 |
+  |    3 | N1       | GW22K-HCA-20 | CARREGANDO |      1 |     5.17 |   10.28 |
+  |    4 | N2       | GW22K-HCA-20 | CARREGANDO |      1 |     5.17 |   10.28 |
+  |    5 | N3       | GW22K-HCA-20 | CARREGANDO |      1 |     5.17 |   10.28 |
+  +------+----------+--------------+------------+--------+----------+---------+
+
+================================================================
+  Fim do relatorio.
+================================================================
+

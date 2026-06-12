@@ -1,0 +1,48 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar ChargeGrid (todos os modulos)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-std=c11",
+                "-o",
+                "chargegrid",
+                "src/main.c",
+                "src/sessao.c",
+                "src/demanda.c",
+                "src/tarifa.c",
+                "src/ocpp.c",
+                "src/relatorio.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compila o sistema ChargeGrid SmartHub. Atalho: Ctrl+Shift+B"
+        },
+        {
+            "label": "Executar ChargeGrid",
+            "type": "shell",
+            "command": "./chargegrid",
+            "windows": {
+                "command": ".\\chargegrid.exe"
+            },
+            "dependsOn": "Compilar ChargeGrid (todos os modulos)",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "focus": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
